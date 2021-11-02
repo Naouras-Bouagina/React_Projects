@@ -1,0 +1,45 @@
+#searchInputContainer{
+  margin-bottom: 5px;
+}
+.headerTitle{
+  display: inline-block;
+  font-size: larger;
+  font-weight: 600;
+  flex-grow: 2;
+  text-align: center;
+  margin: 0px auto 5px;
+}
+.backBtn{
+  flex-shrink: 1;
+  font-size: xx-large;
+  font-weight: 600;
+  margin: 0;
+  height: 100%;
+  cursor: pointer;
+}
+#headerContainer{
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+}
+.list-group-item{
+  padding: 0;
+}
+.employeeItemContainer{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.itemTextContainer{
+  margin: auto 10px;
+  font-size: larger;
+}
+.itemPoste{
+  font-size: medium;
+  color: darkgray;
+}
+.itemAvatar{
+  width: 50px;
+  height: 50px;
+}
